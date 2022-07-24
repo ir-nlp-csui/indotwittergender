@@ -1,5 +1,5 @@
 # indotwittergender
-<b>indotwittergender</b> merupakan repositori untuk menyimpan kode sumber yang digunakan dalam artikel yang berjudul <a href="https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1079">Gender Prediction of Indonesian Twitter Users Using Tweet and Profil Features</a>. Jika Anda menggunakan beberapa komponen di dalam repositori ini, harap kutip artikel berikut:
+<b>indotwittergender</b> is a repository storing source codes that are used in the article with title <a href="https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1079">Gender Prediction of Indonesian Twitter Users Using Tweet and Profil Features</a>. If you are using any components in this repository, please cite the following article:
 
 ```
 @article{JIKI1079,
@@ -16,7 +16,7 @@
 }
 ```
 
-## Struktur repositori
+## Repository structure
     .
     ├── example-data
     │   ├── df_structured.xlsx
