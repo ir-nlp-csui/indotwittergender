@@ -35,7 +35,7 @@
         ├── bio_feat_bow_vec.pickle
         ├── bio_feat_bow_stop_vec.pickle
         ├── name_feat_ia_vec.pickle
-        ├── last name_feat_ib_vec.pickle
+        ├── name_feat_ib_vec.pickle
         ├── name_feat_ic_first_vec.pickle
         ├── name_feat_ic_middle_vec.pickle
         ├── name_feat_ic_last_vec.pickle
