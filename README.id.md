@@ -1,6 +1,8 @@
 # indotwittergender
 <b>indotwittergender</b> merupakan repositori untuk menyimpan kode sumber yang digunakan dalam artikel yang berjudul <a href="https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1079">Gender Prediction of Indonesian Twitter Users Using Tweet and Profil Features</a>. Jika Anda menggunakan beberapa komponen di dalam repositori ini, harap kutip artikel berikut:
 
+*Baca README ini dalam [English](README.md).*
+
 ```
 @article{JIKI1079,
 	author = {Rahmad Mahendra and Hadi Syah Putra and Douglas Faisal and Fadzil Rizki},
@@ -18,13 +20,13 @@
 
 ## Struktur repositori
     .
+    ├── embedding-model
+    │   ├── Fastext_model_tweet.bin
+    │   ├── Word2Vec_400dim.txt
+    │   └── fasttext.4B.id.300.epoch5.uncased.bin
     ├── example-data
     │   ├── df_structured.xlsx
     │   └── ridwankamil.csv
-    ├── embedding-model
-        ├── Fastext_model_tweet.bin
-        ├── Word2Vec_400dim.txt
-        └── fasttext.4B.id.300.epoch5.uncased.bin
     ├── jupyter notebook
     │   ├── Data Collection (Structured).ipynb
     │   ├── Data Collection (Tweet).ipynb
