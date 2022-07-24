@@ -17,25 +17,25 @@
 }
 ```
 # Repository structure
-- example-data
+- example-data/
   - Ridwan Kamil profile data [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/example-data/df_structured.xlsx)
   - Ridwan Kamil tweet data [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/example-data/ridwankamil.csv)
 
-- jupyter notebook
+- jupyter notebook/
   - Data Collection
     - Structured [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Data%20Collection%20(Structured).ipynb)
     - Tweet [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Data%20Collection%20(Tweet).ipynb)
   - Feature Extraction [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Feature%20Extraction.ipynb)
-  - Predict using Gradient Boositng [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Predict%20using%20Gradient%20Boosing.ipynb)
+  - Predict using Gradient Boosting [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Predict%20using%20Gradient%20Boosing.ipynb)
 
-- misc
+- misc/
   - POS tagger [[Tautan]](https://bahasa.cs.ui.ac.id/postag/corpus)
   - Emoticon [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/misc/EMOTICON.txt)
 
-- model
+- model/
   - Gradient Boosting [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/model/Ablation%20bio_Gradient%20Boosting_train_test_split.sav)
 
-- vectorizer
+- vectorizer/
   - Bio
     - All [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/bio_feat_bow_vec.pickle)
     - No stopwords [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/bio_feat_bow_stop_vec.pickle)
