@@ -16,7 +16,7 @@
 }
 ```
 
-## Struktur Repository
+## Struktur repositori
     .
     ├── example-data
     │   ├── df_structured.xlsx
