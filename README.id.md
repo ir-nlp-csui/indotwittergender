@@ -17,31 +17,27 @@
 ```
 
 ## Struktur Repository
-.
-├── example-data/
-    ├── Ridwan Kamil profile data(https://github.com/ir-nlp-csui/indotwittergender/blob/main/example-data/df_structured.xlsx)
-    └── Ridwan Kamil tweet data(https://github.com/ir-nlp-csui/indotwittergender/blob/main/example-data/ridwankamil.csv)
-├── jupyter notebook/
-    ├── Data Collection
-        ├── Structured(https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Data%20Collection%20(Structured).ipynb)
-        └── Tweet(https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Data%20Collection%20(Tweet).ipynb)
-    ├── Feature Extraction(https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Feature%20Extraction.ipynb)
-    └── Predict using Gradient Boosting(https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Predict%20using%20Gradient%20Boosing.ipynb)
-├── misc/
-    ├── POS tagger(https://github.com/ir-nlp-csui/indotwittergender/blob/main/misc/all_indo_man_tag_corpus_model.crf.tagger)
-    └── Emoticon(https://github.com/ir-nlp-csui/indotwittergender/blob/main/misc/EMOTICON.txt)
-├── model/
-    └── Gradient Boosting(https://github.com/ir-nlp-csui/indotwittergender/blob/main/model/Ablation%20bio_Gradient%20Boosting_train_test_split.sav)
-├── vectorizer/
-    ├── Bio
-        ├── All(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/bio_feat_bow_vec.pickle)
-        └── No stopwords(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/bio_feat_bow_stop_vec.pickle)
-    ├── Name
-        ├── All(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/name_feat_ia_vec.pickle)
-        ├── Without last name(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/name_feat_ib_vec.pickle)
-        ├── First name(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/name_feat_ic_first_vec.pickle)
-        ├── Middle name(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/name_feat_ic_middle_vec.pickle)
-        └── Last name(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/name_feat_ic_last_vec.pickle)
-    ├── Tweet
-        ├── All(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/tweet_feat_bow_vec.zip)
-        └── No stopwords(https://github.com/ir-nlp-csui/indotwittergender/blob/main/vectorizer/tweet_feat_bow_stop_vec.zip)
+    .
+    ├── example-data
+    │   ├── df_structured.xlsx
+    │   └── ridwankamil.csv
+    ├── jupyter notebook
+    │   ├── Data Collection (Structured).ipynb
+    │   ├── Data Collection (Tweet).ipynb
+    │   ├── Feature Extraction.ipynb
+    │   └── Predict using Gradient Boosting.ipynb
+    ├── misc
+    │   ├── all_indo_man_tag_corpus_model.crf.tagger
+    │   └── EMOTICON.txt
+    ├── model
+    │   └── Ablation bio_Gradient Boosting_train_test_split.sav
+    └── vectorizer
+        ├── bio_feat_bow_vec.pickle
+        ├── bio_feat_bow_stop_vec.pickle
+        ├── name_feat_ia_vec.pickle
+        ├── last name_feat_ib_vec.pickle
+        ├── name_feat_ic_first_vec.pickle
+        ├── name_feat_ic_middle_vec.pickle
+        ├── name_feat_ic_last_vec.pickle
+        ├── tweet_feat_bow_vec.zip
+        └── tweet_feat_bow_stop_vec.zip
