@@ -29,7 +29,8 @@
   - Predict using Gradient Boosting [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/jupyter-notebook/Predict%20using%20Gradient%20Boosing.ipynb)
 
 - misc/
-  - POS tagger [[Tautan]](https://bahasa.cs.ui.ac.id/postag/corpus)
+  - POS tagger [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/misc/all_indo_man_tag_corpus_model.crf.tagger)
+    - Raw data [[Tautan]](https://github.com/famrashel/idn-tagged-corpus)
   - Emoticon [[Tautan]](https://github.com/ir-nlp-csui/indotwittergender/blob/main/misc/EMOTICON.txt)
 
 - model/
