@@ -4,7 +4,7 @@ This research <a href="https://jiki.cs.ui.ac.id/index.php/jiki/article/view/1079
 - [Tweepy](https://github.com/tweepy/tweepy) to collect profile data
   - [Data example](df_structured.xlsx)
   - [Script example](../jupyter-notebook/Data%20Collection%20(Structured).ipynb)
-- [Twint](https://github.com/twintproject/twint) to collect tweets data
+- [Twint](https://github.com/twintproject/twint) to collect tweets
   - [Data example](ridwankamil.csv)
   - [Script example](../jupyter-notebook/Data%20Collection%20(Tweet).ipynb)
     
