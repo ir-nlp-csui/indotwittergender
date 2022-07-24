@@ -7,10 +7,10 @@ In this folder, we have some scripts, such as:
 - [Feature Extraction.ipynb](Feature%20Extraction.ipynb)<br>
   Prequisites: 
   - Download one of the embedding models (please check [this](../embedding-model/README.md)) and save it to `embedding-model` folder. 
-  - Unzip the one of the tweet vectorizer models (please check [this](../vectorizer/README.md)).
+  - Unzip one of the tweet vectorizer models (please check [this](../vectorizer/README.md)).
 - [Predict using Gradient Boosting.ipynb](Predict%20using%20Gradient%20Boosting.ipynb)<br>
   Prequisites:
-  - Unzip the one of the tweet vectorizer models (please check [this](../vectorizer/README.md)).
+  - Unzip one of the tweet vectorizer models (please check [this](../vectorizer/README.md)).
 
 ---
 
