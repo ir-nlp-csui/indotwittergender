@@ -18,7 +18,7 @@ In this folder, we have some scripts, such as:
 Dalan folder ini, ada beberapa *script*, seperti:
 
 - [Data Collection (Structured).ipynb](Data%20Collection%20(Structured).ipynb)<br>
-  Prasyarat: memiliki `consumer_key`, `consumer_secret`, `access_token`, dan `access_token_secret` from [Twitter Developer Portal](https://developer.twitter.com/en/portal/dashboard).  
+  Prasyarat: memiliki `consumer_key`, `consumer_secret`, `access_token`, dan `access_token_secret` dari [Twitter Developer Portal](https://developer.twitter.com/en/portal/dashboard).  
 - [Data Collection (Tweet).ipynb](Data%20Collection%20(Tweet).ipynb)
 - [Feature Extraction.ipynb](Feature%20Extraction.ipynb)<br>
   Prasyarat: 
